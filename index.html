@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="StudyState is a JEE CBT practice platform offering mock tests, chapter quizzes, analytics, and leaderboard tracking for JEE aspirants.">
+    <meta name="theme-color" content="#3b82f6">
     <title>StudyState | JEE CBT Practice</title>
-    <link rel="stylesheet" href="./Home _ StudyState_files/site.css">
+    <link rel="stylesheet" href="site.css">
 </head>
 <body>
     <div class="page-shell">
@@ -163,14 +164,6 @@
         </footer>
     </div>
 
-    <script>
-        const menuToggle = document.querySelector('.menu-toggle');
-        const nav = document.querySelector('.nav');
-        menuToggle.addEventListener('click', () => {
-            const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
-            menuToggle.setAttribute('aria-expanded', String(!expanded));
-            nav.classList.toggle('nav-open');
-        });
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>
