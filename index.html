@@ -1,73 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>StudyState Landing Page</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudyState is a JEE CBT practice platform offering mock tests, chapter quizzes, analytics, and leaderboard tracking for JEE aspirants.">
+    <title>StudyState | JEE CBT Practice</title>
+    <link rel="stylesheet" href="./Home _ StudyState_files/site.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#">StudyState</a>
-      <nav class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#features">Features</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <div class="page-shell">
+        <header class="topbar">
+            <div class="container topbar-inner">
+                <a class="brand" href="#home">StudyState</a>
+                <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="nav" aria-label="Primary navigation">
+                    <a href="#home">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#subjects">Subjects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="home" class="hero-section">
+                <div class="container hero-grid">
+                    <div class="hero-copy">
+                        <p class="eyebrow">JEE CBT Exam Practice</p>
+                        <h1>Build accuracy, speed and exam readiness with every mock test</h1>
+                        <p>StudyState delivers JEE Main &amp; Advanced practice with chapter quizzes, timed CBT tests, and progress analytics tailored for aspirants.</p>
+                        <div class="hero-actions">
+                            <a class="btn btn-primary" href="#features">Start practice</a>
+                            <a class="btn btn-outline" href="#subjects">Explore subjects</a>
+                        </div>
+                    </div>
+                    <div class="hero-panel">
+                        <div class="stats-card">
+                            <span class="label">Today's Goal</span>
+                            <h2>50 questions</h2>
+                            <p>Complete a timed session and review your score immediately.</p>
+                        </div>
+                        <div class="overview-cards">
+                            <div class="overview-card">
+                                <strong>3000+</strong>
+                                <span>Questions</span>
+                            </div>
+                            <div class="overview-card">
+                                <strong>25+</strong>
+                                <span>Mock tests</span>
+                            </div>
+                            <div class="overview-card">
+                                <strong>4</strong>
+                                <span>Subjects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features" class="section section-features">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Platform highlights</span>
+                        <h2>Everything you need for effective JEE preparation</h2>
+                    </div>
+                    <div class="cards-grid">
+                        <article class="card feature-card">
+                            <h3>Real CBT experience</h3>
+                            <p>Tackle questions under timed conditions in a format that mirrors the actual exam.</p>
+                        </article>
+                        <article class="card feature-card">
+                            <h3>Chapter practice</h3>
+                            <p>Reinforce concepts with topic-specific quizzes in Physics, Chemistry, and Mathematics.</p>
+                        </article>
+                        <article class="card feature-card">
+                            <h3>Instant review</h3>
+                            <p>See answers, explanations, and accuracy reports right after every practice session.</p>
+                        </article>
+                        <article class="card feature-card">
+                            <h3>Leaderboards</h3>
+                            <p>Monitor your rank and challenge peers with daily and weekly scoreboards.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="subjects" class="section section-subjects">
+                <div class="container">
+                    <div class="section-header">
+                        <span class="section-tag">Core subjects</span>
+                        <h2>Master every JEE topic with focused practice</h2>
+                    </div>
+                    <div class="subject-grid">
+                        <div class="card subject-card">
+                            <h3>Physics</h3>
+                            <p>Mechanics, Electricity, Optics, Thermal Physics, and Modern Physics.</p>
+                        </div>
+                        <div class="card subject-card">
+                            <h3>Chemistry</h3>
+                            <p>Physical, Organic, Inorganic and reaction-based problem solving.</p>
+                        </div>
+                        <div class="card subject-card">
+                            <h3>Mathematics</h3>
+                            <p>Algebra, Geometry, Calculus, Trigonometry and Vectors.</p>
+                        </div>
+                        <div class="card subject-card">
+                            <h3>Full tests</h3>
+                            <p>Simulate JEE exams with sectional time limits and score summaries.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-process">
+                <div class="container process-grid">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h3>Choose exam type</h3>
+                        <p>Select JEE Main or Advanced and set your practice difficulty.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h3>Attempt questions</h3>
+                        <p>Work through MCQs in a crisp test interface with countdown timer.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h3>Review results</h3>
+                        <p>Assess your accuracy and improve with personalized topic guidance.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-cta">
+                <div class="container cta-card">
+                    <div>
+                        <h2>Ready to begin your JEE practice journey?</h2>
+                        <p>Jump into a demo test now and start tracking your progress like a top scorer.</p>
+                    </div>
+                    <a class="btn btn-primary btn-large" href="#">Launch demo test</a>
+                </div>
+            </section>
+        </main>
+
+        <footer id="contact" class="footer">
+            <div class="container footer-inner">
+                <div>
+                    <h3>StudyState</h3>
+                    <p>JEE CBT preparation built for focused practice and exam readiness.</p>
+                </div>
+                <div>
+                    <p>Contact</p>
+                    <a href="mailto:narayana@studystate.in">narayana@studystate.in</a>
+                </div>
+            </div>
+            <p class="footer-note">© 2026 StudyState. All rights reserved.</p>
+        </footer>
     </div>
-  </header>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="container">
-        <h1>Practice smarter. Perform better.</h1>
-        <p>Simple, responsive study planning and mock test practice built for students who want to stay focused.</p>
-        <a class="primary-button" href="#features">Explore features</a>
-      </div>
-    </section>
-
-    <section class="features" id="features">
-      <div class="container grid">
-        <article>
-          <h2>Responsive Design</h2>
-          <p>Access the site on any device with clean, readable layouts and intuitive navigation.</p>
-        </article>
-        <article>
-          <h2>Easy Tracking</h2>
-          <p>Monitor your progress and stay motivated with a dashboard built for learning.</p>
-        </article>
-        <article>
-          <h2>Focused Study</h2>
-          <p>Organize your topics, schedule practice tests, and make each study session count.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="container">
-        <h2>About StudyState</h2>
-        <p>Designed with clarity and performance in mind, StudyState helps students keep their preparation organised and productive.</p>
-      </div>
-    </section>
-
-    <section class="cta" id="contact">
-      <div class="container">
-        <h2>Ready to level up your study routine?</h2>
-        <p>Get started with a clean workflow and confidence-building practice sessions.</p>
-        <a class="secondary-button" href="#home">Start now</a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© 2026 StudyState. Built for students who want better results.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('.nav');
+        menuToggle.addEventListener('click', () => {
+            const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', String(!expanded));
+            nav.classList.toggle('nav-open');
+        });
+    </script>
 </body>
 </html>
